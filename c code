@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<string.h>
+
+int main() {
+    // Write C code here
+    char str[10000];
+    char strr[10000];
+scanf("%s",str);
+scanf("%s",strr);
+int count =0 ;
+for(int i=0;i<strlen(str);i++){
+    if(str[i]==strr[i])
+    {
+        continue;
+    }
+    else{
+        count ++;
+    }
+}
+    printf("%d",count);
+
+}
